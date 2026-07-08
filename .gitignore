@@ -1,3 +1,11 @@
 .venv/
 
 .idea/
+
+.env
+data/duckdb/*.duckdb
+data/qdrant/
+data/raw_docs/*
+!data/raw_docs/.gitkeep
+__pycache__/
+*.pyc
